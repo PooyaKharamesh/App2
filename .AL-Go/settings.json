@@ -7,7 +7,7 @@
             "repo": "https://github.com/PooyaKharamesh/App1.git",
             "version": "latest",
             "release_status": "release",
-            "authTokenSecret": "",
+            "authTokenSecret": "app1Secret",
             "projects": "*"
         }
     ],
