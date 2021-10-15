@@ -1,11 +1,18 @@
 {
-    "type":  "PTE",
-    "country":  "us",
-    "KeyVaultName":  "",
-    "appFolders":  [
-                       "App2"
-                   ],
-    "testFolders":  [
-
-                    ]
+    "type": "PTE",
+    "country": "us",
+    "KeyVaultName": "",
+    "appDependencyProbingPaths": [
+        {
+            "repo": "https://github.com/PooyaKharamesh/App1.git",
+            "version": "latest",
+            "release_status": "release",
+            "authTokenSecret": "",
+            "projects": "*"
+        }
+    ],
+    "appFolders": [
+        "App2"
+    ],
+    "testFolders": []
 }

@@ -1,11 +1,38 @@
-// Welcome to your new AL extension.
-// Remember that object names and IDs should be unique across all extensions.
-// AL snippets start with t*, like tpageext - give them a try and happy coding!
-
-pageextension 50100 CustomerListExt extends "Customer List"
+page 50121 MyPage
 {
-    trigger OnOpenPage();
-    begin
-        Message('App published: Hello world');
-    end;
+    PageType = Card;
+    ApplicationArea = All;
+    UsageCategory = Administration;
+
+    layout
+    {
+        area(Content)
+        {
+            group(GroupName)
+            {
+
+            }
+        }
+    }
+
+    actions
+    {
+        area(Processing)
+        {
+            action(ActionName)
+            {
+                ApplicationArea = All;
+
+                trigger OnAction()
+                var
+                    myTbl: Record App1MyTable;
+                begin
+                    IF myTbl.FINDSET THEN;
+                end;
+            }
+        }
+    }
+
+    var
+        myInt: Integer;
 }
