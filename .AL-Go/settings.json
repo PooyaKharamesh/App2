@@ -3,13 +3,7 @@
     "country": "us",
     "KeyVaultName": "ALGO-KV",
     "appDependencyProbingPaths": [
-        {
-            "repo": "https://github.com/PooyaKharamesh/App1.git",
-            "version": "latest",
-            "release_status": "release",
-            "authTokenSecret": "app1Secret",
-            "projects": "*"
-        },
+
         {
             "repo": "https://github.com/PooyaKharamesh/App1.git",
             "version": "latest",
