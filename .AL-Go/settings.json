@@ -1,20 +1,20 @@
 {
-    "type": "PTE",
-    "country": "us",
-    "KeyVaultName": "ALGO-KV",
-    "appDependencyProbingPaths": [
-
-        {
-            "repo": "https://github.com/PooyaKharamesh/App1.git",
-            "version": "latest",
-            "release_status": "release",
-            "authTokenSecret": "app2Secret",
-            "projects": "*"
-        }
-
-    ],
-    "appFolders": [
-        "App2"
-    ],
-    "testFolders": []
+    "type":  "PTE",
+    "country":  "us",
+    "KeyVaultName":  "ALGO-KV",
+    "appDependencyProbingPaths":  [
+                                      {
+                                          "repo":  "https://github.com/PooyaKharamesh/App1.git",
+                                          "version":  "latest",
+                                          "release_status":  "release",
+                                          "authTokenSecret":  "app2Secret",
+                                          "projects":  "*"
+                                      }
+                                  ],
+    "appFolders":  [
+                       "App2"
+                   ],
+    "testFolders":  [
+                        "App2.Tests"
+                    ]
 }
